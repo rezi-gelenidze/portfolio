@@ -365,8 +365,8 @@ header, section {
         flex-direction: column;
         align-items: center;
         padding: 1em;
+        padding-bottom: 1.8em;
     }
-    
     
     .course > img {
         width: 250px;
@@ -383,6 +383,3 @@ header, section {
         font-size: .9em;
     }
 }
-
-
-
