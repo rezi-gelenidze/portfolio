@@ -150,16 +150,30 @@ header, section {
 }
 
 .course {
+    position: relative;
     background-image: linear-gradient(to top left, #a4eaea , #ffffff);
     box-shadow: #a4eaea 1px 1px 15px;
     width: 750px;
-    height: 120px;
+    min-height: 120px;
     margin-top: 1em;
     display: grid;
     grid-template-columns: auto 200px;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr auto;
     padding: .5em;
+    padding-bottom: 1em;
     border-radius: 10px;
+}
+
+.course > a {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color:  #17252A;
+    font-weight: bold;
+}
+
+.course > a:hover {
+    color: #101a1d;
 }
 
 
