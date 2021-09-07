@@ -37,6 +37,7 @@
 
 .nav-item {
     height: 60px;
+    transition: .5s;
 }
 
 .nav-item:last-child {
