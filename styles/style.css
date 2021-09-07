@@ -67,7 +67,7 @@ header, section {
 
 .cursor {
     display: inline-block;
-    width: 3px;
+    width: 5px;
     height: .8em;
     background-color: white;
     animation: blink 2s infinite;
