@@ -55,6 +55,24 @@ header, section {
     padding-bottom: 80px;
 }
 
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    height: .8em;
+    background-color: white;
+    animation: blink 2s infinite;
+}
+
 .page-title {
     margin-top: 120px;
     font-size: 5vw;
